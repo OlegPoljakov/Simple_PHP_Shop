@@ -1,0 +1,102 @@
+body {
+    padding-top: 0rem; */
+    /* padding-bottom: 3rem; */
+    /*color: #5a5a5a; */
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Facebook */
+.fa-facebook {
+  /*background: #3B5998;*/
+  color: white;
+}
+
+/* Twitter */
+.fa-instagram {
+  /*background: #55ACEE;*/
+  color: white;
+}
+
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+}
+@media (min-width: 1200px)
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+}
+
+@media (min-width: 992px)
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 960px;
+}
+@media (min-width: 768px)
+.container, .container-md, .container-sm {
+    max-width: 720px;
+}
+@media (min-width: 576px)
+.container, .container-sm {
+    max-width: 540px;
+}
+@media (min-width: 1200px)
+.container {
+    max-width: 1140px;
+}
+@media (min-width: 992px)
+.container {
+    max-width: 960px;
+}
+@media (min-width: 768px)
+.container {
+    max-width: 720px;
+}
+@media (min-width: 576px)
+.container {
+    max-width: 540px;
+}
+.container {
+   /* width: 100%;*/
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+
+.row{
+    /*margin-top: 20%;*/ 
+}
+
+
+.card-img, .card-img-bottom, .card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    
+}
+
+.img-fluid {
+    
+    height: auto;
+}
